@@ -1,4 +1,4 @@
-public class MyClass {
+public class DomainLock {
 
     //String and Integer Classes used used to Demonstrate Composition
     private String name;

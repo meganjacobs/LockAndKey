@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="">
+    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="Append MyClass to include String &amp; Integer to demonstrate Composition">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ControllerLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DomainFactoryLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/LockTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/MyClassTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-LockTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MyClassTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RunnableLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunnableLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomainLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RunnableLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactoryLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunnableLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ControllerLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyClassTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -48,40 +69,40 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyClassTest">
-    <configuration name="LockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FactoryLockTest.testLock">
+    <configuration name="DomainFactoryLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstMaven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LockTest" />
+      <option name="MAIN_CLASS_NAME" value="DomainFactoryLockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest.testLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DomainFactoryLockTest.calculateKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstMaven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LockTest" />
-      <option name="METHOD_NAME" value="testLock" />
+      <option name="MAIN_CLASS_NAME" value="DomainFactoryLockTest" />
+      <option name="METHOD_NAME" value="calculateKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstMaven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyClassTest" />
+      <option name="MAIN_CLASS_NAME" value="FactoryLockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassTest.calculateKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryLockTest.testLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstMaven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyClassTest" />
-      <option name="METHOD_NAME" value="calculateKey" />
+      <option name="MAIN_CLASS_NAME" value="FactoryLockTest" />
+      <option name="METHOD_NAME" value="testLock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyClassTest" />
-        <item itemvalue="JUnit.LockTest.testLock" />
-        <item itemvalue="JUnit.MyClassTest.calculateKey" />
-        <item itemvalue="JUnit.LockTest" />
+        <item itemvalue="JUnit.FactoryLockTest.testLock" />
+        <item itemvalue="JUnit.DomainFactoryLockTest.calculateKey" />
+        <item itemvalue="JUnit.DomainFactoryLockTest" />
+        <item itemvalue="JUnit.FactoryLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +131,7 @@
       <workItem from="1582734944367" duration="3122000" />
       <workItem from="1583145417598" duration="827000" />
       <workItem from="1583312971763" duration="97000" />
-      <workItem from="1583324228891" duration="6271000" />
+      <workItem from="1583324228891" duration="7605000" />
     </task>
     <task id="LOCAL-00001" summary="Append RunnableLock with Inheritance">
       <created>1583330932404</created>
@@ -119,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583330932404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Append MyClass to include String &amp; Integer to demonstrate Composition">
+      <created>1583331432210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583331432210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Append RunnableLock with Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Append RunnableLock with Inheritance" />
+    <MESSAGE value="Append MyClass to include String &amp; Integer to demonstrate Composition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Append MyClass to include String &amp; Integer to demonstrate Composition" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="94" width="1093" height="493" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583329597565">
@@ -138,30 +167,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="447" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582727247655" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583330931655">
+    <state x="345" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583332648407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583330931655" />
+    <state x="345" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1583332648407" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583331911490">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583331911490" />
     <state x="478" y="240" width="324" height="258" key="Github.ShareDialog" timestamp="1583330996792">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="478" y="240" width="324" height="258" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1583330996792" />
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1583330875473">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1583332587548">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
-    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1583330875473">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583332587548" />
+    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1583332587548">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
-    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1583330875473">
+    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583332587548" />
+    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1583332587548">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
-    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1583330875473">
+    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583332587548" />
+    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1583332587548">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
+    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583332587548" />
     <state width="1281" height="245" key="GridCell.Tab.1.bottom" timestamp="1583325341127">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

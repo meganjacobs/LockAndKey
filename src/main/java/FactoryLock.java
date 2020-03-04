@@ -1,9 +1,9 @@
-public class Lock {
+public class FactoryLock {
 
     private Integer keyValue;
     private boolean locked;
 
-    public Lock(Integer keyValue) {
+    public FactoryLock(Integer keyValue) {
         this.keyValue = keyValue;
         locked = true;
     }
