@@ -1,4 +1,6 @@
 public class MyClass {
+
+    //String and Integer Classes used used to Demonstrate Composition
     private String name;
     private Integer id;
     private Integer secret;

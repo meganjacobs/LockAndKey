@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="Append RunnableLock with Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RunnableLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnableLockTest.java" afterDir="false" />
+    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RunnableLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunnableLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +110,16 @@
       <workItem from="1582734944367" duration="3122000" />
       <workItem from="1583145417598" duration="827000" />
       <workItem from="1583312971763" duration="97000" />
-      <workItem from="1583324228891" duration="5742000" />
+      <workItem from="1583324228891" duration="6271000" />
     </task>
+    <task id="LOCAL-00001" summary="Append RunnableLock with Inheritance">
+      <created>1583330932404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583330932404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,14 +138,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="447" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582727247655" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583330875450">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583330931655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583330875450" />
-    <state x="478" y="240" width="324" height="258" key="Github.ShareDialog" timestamp="1582732823855">
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583330931655" />
+    <state x="478" y="240" width="324" height="258" key="Github.ShareDialog" timestamp="1583330996792">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="478" y="240" width="324" height="258" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1582732823855" />
+    <state x="478" y="240" width="324" height="258" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1583330996792" />
     <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1583330875473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
