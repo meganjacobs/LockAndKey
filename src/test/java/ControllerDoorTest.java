@@ -3,15 +3,15 @@ import org.junit.Before;
 
 import static org.junit.Assert.*;
 
-public class ControllerLockTest {
+public class ControllerDoorTest {
 
     @Before
     public void setUp() {
-        System.out.println("ControllerLock Running...");
+        System.out.println("ControllerDoor Running...");
     }
 
     @After
     public void tearDown() {
-        System.out.println("ControllerLockTest Complete:");
+        System.out.println("ControllerDoorTest Complete:");
     }
 }

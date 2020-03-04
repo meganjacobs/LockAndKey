@@ -1,4 +1,4 @@
-public class FactoryLock {
+public class FactoryLock extends DomainLock {
 
     private Integer keyValue;
     private boolean locked;
