@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ControllerDoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ControllerLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ControllerLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ControllerDoorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FactoryLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FactoryLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RunnableFactoryLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FactoryLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FactoryLockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RunnableFactoryLockTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +110,7 @@
       <workItem from="1582734944367" duration="3122000" />
       <workItem from="1583145417598" duration="827000" />
       <workItem from="1583312971763" duration="97000" />
-      <workItem from="1583324228891" duration="8398000" />
+      <workItem from="1583324228891" duration="8642000" />
     </task>
     <task id="LOCAL-00001" summary="Append RunnableLock with Inheritance">
       <created>1583330932404</created>
@@ -141,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583332947484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Composition replaces Inheritance in ControllerDoor with a &quot;has a relationship&quot; instead of &quot;is a relationship&quot;">
+      <created>1583333725230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583333725230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +150,8 @@
     <MESSAGE value="Append RunnableLock with Inheritance" />
     <MESSAGE value="Append MyClass to include String &amp; Integer to demonstrate Composition" />
     <MESSAGE value="Refactor project classes to Domain, Factory &amp; Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor project classes to Domain, Factory &amp; Controller" />
+    <MESSAGE value="Composition replaces Inheritance in ControllerDoor with a &quot;has a relationship&quot; instead of &quot;is a relationship&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composition replaces Inheritance in ControllerDoor with a &quot;has a relationship&quot; instead of &quot;is a relationship&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="94" width="1093" height="493" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583329597565">
@@ -166,10 +166,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="345" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1583333207105" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583332946810">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583333724510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583332946810" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583333724510" />
     <state x="478" y="240" width="324" height="258" key="Github.ShareDialog" timestamp="1583330996792">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -210,18 +210,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="153" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582734376629" />
-    <state x="234" y="77" key="Vcs.Push.Dialog.v2" timestamp="1583332968368">
+    <state x="234" y="77" key="Vcs.Push.Dialog.v2" timestamp="1583333733922">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="234" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583332968368" />
+    <state x="234" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583333733922" />
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583313003390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583313003390" />
-    <state x="453" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583333270651">
+    <state x="453" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583333895956">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="453" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1583333270651" />
+    <state x="453" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1583333895956" />
     <state x="413" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583330724316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

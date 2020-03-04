@@ -6,6 +6,7 @@ public class ControllerDoor {
 
     public ControllerDoor(DomainLock doorLock) {
         this.doorLock = doorLock;
+        doorLock.setName("Arinzes Lock");
     }
 
     public void addLock() {
