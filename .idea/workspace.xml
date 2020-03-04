@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="" />
+    <list default="true" id="d9859a4c-0502-462a-b4b3-eff1f81da5f4" name="Default Changelist" comment="Append RunnableLock with Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RunnableLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunnableLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyClassTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -20,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YLdAMAhLtdlYne2QLprTPRarwH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +44,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -41,7 +55,35 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyClassTest">
+    <configuration name="LockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockTest.testLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LockTest" />
+      <option name="METHOD_NAME" value="testLock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyClassTest.calculateKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstMaven" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,7 +96,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyClassTest" />
+        <item itemvalue="JUnit.LockTest.testLock" />
         <item itemvalue="JUnit.MyClassTest.calculateKey" />
+        <item itemvalue="JUnit.LockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -68,45 +113,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582725665888</updated>
-      <workItem from="1582725686195" duration="4833000" />
+      <workItem from="1582725686195" duration="6565000" />
+      <workItem from="1582734944367" duration="3122000" />
+      <workItem from="1583145417598" duration="827000" />
+      <workItem from="1583312971763" duration="97000" />
+      <workItem from="1583324228891" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Append RunnableLock with Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Append RunnableLock with Inheritance" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="94" y="94" width="1093" height="493" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583329597565">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="94" y="94" width="1093" height="493" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1583329597565" />
     <state x="447" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1582727247655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="447" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582727247655" />
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1583330875450">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583330875450" />
     <state x="478" y="240" width="324" height="258" key="Github.ShareDialog" timestamp="1582732823855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="478" y="240" width="324" height="258" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1582732823855" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1582728516342">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom" timestamp="1583330875473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582728516341" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1582728516340">
+    <state width="1237" height="96" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
+    <state width="1237" height="96" key="GridCell.Tab.0.center" timestamp="1583330875473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582728516340" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1582728516336">
+    <state width="1237" height="96" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
+    <state width="1237" height="96" key="GridCell.Tab.0.left" timestamp="1583330875473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582728516336" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1582728516340">
+    <state width="1237" height="96" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
+    <state width="1237" height="96" key="GridCell.Tab.0.right" timestamp="1583330875473">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582728516340" />
-    <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582725891706">
+    <state width="1237" height="96" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583330875473" />
+    <state width="1281" height="245" key="GridCell.Tab.1.bottom" timestamp="1583325341127">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582725891706" />
-    <state x="413" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582729076422">
+    <state width="1281" height="245" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583325341127" />
+    <state width="1281" height="245" key="GridCell.Tab.1.center" timestamp="1583325341127">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="413" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1582729076422" />
+    <state width="1281" height="245" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583325341127" />
+    <state width="1281" height="245" key="GridCell.Tab.1.left" timestamp="1583325341126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="245" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583325341126" />
+    <state width="1281" height="245" key="GridCell.Tab.1.right" timestamp="1583325341127">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1281" height="245" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583325341127" />
+    <state x="153" y="0" key="SettingsEditor" timestamp="1582734376629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="153" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582734376629" />
+    <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1583313003390">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583313003390" />
+    <state x="413" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583330724316">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="413" y="61" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1583330724316" />
+    <state x="75" y="46" key="new project wizard" timestamp="1583313068282">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="75" y="46" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583313068282" />
   </component>
 </project>

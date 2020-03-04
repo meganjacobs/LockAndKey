@@ -8,8 +8,8 @@ public class Lock {
         locked = true;
     }
 
-    public boolean unlock(int i) {
-        if (this.keyValue == keyValue) {
+    public boolean unlock(Integer keyValue) {
+        if (this.keyValue.equals(keyValue)) {
             locked = false;
             return true;
         }

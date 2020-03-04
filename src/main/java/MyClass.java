@@ -4,7 +4,7 @@ public class MyClass {
     private Integer secret;
 
     public Integer calculateKey() {
-        return id = secret;
+        return id * secret;
     }
 
     public String getName() {
